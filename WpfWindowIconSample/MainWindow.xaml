@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfWindowIconSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfWindowIconSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="200"
+		ResizeMode="NoResize"
+		Icon="{DynamicResource WindowIcon}"
+		d:DataContext="{d:DesignInstance local:MainWindow, IsDesignTimeCreatable=False}"
+		>
+	<Window.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="Icon/Icon-96dpi.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Window.Resources>
+    <Grid>
+		<StackPanel VerticalAlignment="Center">
+			<Image Source="{DynamicResource WindowIcon}" Width="16" Height="16"/>
+		</StackPanel>
+	</Grid>
+</Window>
