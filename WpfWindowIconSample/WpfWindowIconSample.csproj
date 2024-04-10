@@ -13,6 +13,7 @@
     <None Remove="Icon\icon-0.png" />
     <None Remove="Icon\icon-1.png" />
     <None Remove="Icon\icon-2.png" />
+    <None Remove="Icon\icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,7 @@
   <ItemGroup>
     <Resource Include="Icon\icon-0.png" />
     <Resource Include="Icon\icon-1.png" />
+    <Resource Include="Icon\icon.ico" />
   </ItemGroup>
 
 </Project>

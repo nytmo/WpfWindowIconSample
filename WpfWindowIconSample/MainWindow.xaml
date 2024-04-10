@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="150" Width="200"
 		ResizeMode="NoResize"
-		Icon="{DynamicResource WindowIcon}"
+		Icon="Icon/icon.ico"
 		d:DataContext="{d:DesignInstance local:MainWindow, IsDesignTimeCreatable=False}"
 		>
 	<Window.Resources>
